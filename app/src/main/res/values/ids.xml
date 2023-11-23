@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="email" type="id" />
+    <item name="password" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="registerNow" type="id" />
+    <item name="btn_createdb" type="id" />
+    <item name="loginNow" type="id" />
+    <item name="btn_register" type="id" />
+    <item name="radioFuncionario" type="id" />
+    <item name="radioPeaton" type="id" />
+    <item name="rolRG" type="id" />
+    <item name="radioNonBinary" type="id" />
+    <item name="radioFemale" type="id" />
+    <item name="radioMale" type="id" />
+    <item name="generoRG" type="id" />
+    <item name="conf_password" type="id" />
+    <item name="username" type="id" />
+    <item name="age" type="id" />
+    <item name="name" type="id" />
+</resources>

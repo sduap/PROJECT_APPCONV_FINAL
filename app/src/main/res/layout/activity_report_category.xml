@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services.ReportCategoryActivity"
+    >
+
+    <TextView
+        android:id="@+id/reporte_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORÍAS DE REPORTES"
+        android:textSize="30dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/trafficjam"
+        android:contentDescription="LogoApp"
+        />
+
+    <ListView
+        android:id="@+id/lista_categ_reportes"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:entries="@array/reportes" />
+
+    <Button
+        android:id="@+id/add_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Reporte"
+        android:onClick="AddReportRedirect"
+        app:layout_constraintTop_toBottomOf="@id/lista_categ_reportes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</LinearLayout>

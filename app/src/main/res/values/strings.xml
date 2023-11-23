@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ProjectAPPCONV</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="login">Login</string>
+    <string name="title">Gestión Urbanismo Táctico</string>
+    <string name="title_peaton">HOME PEATÓN</string>
+    <string name="title_funcionario">HOME FUNCIONARIO</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="click_to_register">Clic para registrarse</string>
+    <string name="register">Registrar</string>
+    <string name="name">Nombre</string>
+    <string name="username">Usuario</string>
+    <string name="conf_password">Confirmar contraseña</string>
+    <string name="age">Edad</string>
+    <string name="createdb">CREATE DB</string>
+    <string name="click_to_login">Clic para login</string>
+    <string-array name="opciones">
+        <item>Reportes</item>
+        <item>Mapa</item>
+        <item>Podometro</item>
+    </string-array>
+    <string-array name="opciones_fun">
+        <item>Reportes</item>
+        <item>Mapa</item>
+    </string-array>
+    <string-array name="reportes">
+        <item>Colisión</item>
+        <item>Varado</item>
+    </string-array>
+    <string name="title_activity_observation">ObservationActivity</string>
+    <string name="hint_status">Estado de revisión:</string>
+</resources>
